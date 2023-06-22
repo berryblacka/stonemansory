@@ -164,8 +164,46 @@ a {
     }
     .p {
         font-size: clamp(1rem,1.35vw, 1.625rem);
-        max-width: 393;
+        max-width: 393px;
         font-weight: 600;
     }
     
 }
+
+
+.section-five {
+    width: 100%;
+    display: flex;
+    position: relative;
+
+    min-height: 960px;
+    // overflow-x: hidden;
+    .text {
+        width: 100%;
+        color: #015242;
+        display: flex;
+        flex-direction: column;
+        padding-left: 78px;
+        gap: 112px;  color: #015242;
+    }
+    .heading {
+        font-size: clamp(1rem,4.17vw, 5rem);
+        font-weight: 600;
+        max-width: 778px;
+    }
+    .p {
+        font-size: clamp(1rem,1.35vw, 1.625rem);
+        max-width: 809px;
+        font-weight: 600;
+    }
+
+    .circles {
+        width: 100%;
+        max-width: 1161px;
+        position: absolute;
+        top: 0;
+        right: -10px;
+
+    }
+}
+
