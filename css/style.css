@@ -102,6 +102,7 @@ a {
 }
 
 .section-three {
+  margin-bottom: 37px;
   width: 100%;
   display: flex;
 }
@@ -135,4 +136,21 @@ a {
 }
 .section-four .forest {
   width: 70%;
+}
+.section-four .text {
+  display: flex;
+  color: #015242;
+  padding-left: 79px;
+  gap: 60px;
+  flex-direction: column;
+}
+.section-four .heading {
+  font-size: clamp(1rem, 4.17vw, 5rem);
+  font-weight: 600;
+  max-width: 387px;
+}
+.section-four .p {
+  font-size: clamp(1rem, 1.35vw, 1.625rem);
+  max-width: 393;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
