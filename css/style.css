@@ -165,15 +165,21 @@ a {
   width: 100%;
   display: flex;
   position: relative;
-  min-height: 960px;
+  flex-direction: column;
+  padding-top: 142px;
+  min-height: 1249px;
+  padding-left: 78px;
+  padding-bottom: 78px;
+  justify-content: space-between;
+}
+.section-five .top {
+  display: flex;
 }
 .section-five .text {
   width: 100%;
   color: #015242;
   display: flex;
   flex-direction: column;
-  padding-top: 142px;
-  padding-left: 78px;
   gap: 112px;
   color: #015242;
 }
@@ -191,6 +197,19 @@ a {
   width: 61%;
   max-width: 1161px;
   position: absolute;
-  top: 0;
   right: -142px;
+}
+.section-five .pods {
+  position: absolute;
+  max-width: 283.5px;
+  width: 15%;
+  bottom: 0;
+}
+.section-five .p-two {
+  max-width: 1452px;
+  margin-left: 324px;
+  font-size: clamp(1rem, 1.35vw, 1.625rem);
+  max-width: 1452px;
+  font-weight: 600;
+  color: #015242;
 }/*# sourceMappingURL=style.css.map */
