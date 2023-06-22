@@ -57,7 +57,7 @@ a {
   display: flex;
 }
 .section-first-img {
-  width: 80%;
+  width: 70%;
   height: auto;
 }
 .section-first .first__right {
@@ -109,6 +109,30 @@ a {
   display: flex;
   flex-direction: column;
 }
+.section-three .women {
+  height: auto;
+  max-width: 532px;
+}
 .section-three .text {
   display: flex;
+  color: #015242;
+  padding-left: 32px;
+  gap: 60px;
+}
+.section-three .heading {
+  max-width: 489px;
+  font-size: clamp(1rem, 4.17vw, 5rem);
+  font-weight: 600;
+}
+.section-three .p {
+  font-size: clamp(1rem, 1.35vw, 1.625rem);
+  max-width: 497px;
+  font-weight: 600;
+}
+
+.section-four {
+  display: flex;
+}
+.section-four .forest {
+  width: 70%;
 }/*# sourceMappingURL=style.css.map */

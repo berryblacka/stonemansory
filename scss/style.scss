@@ -60,7 +60,7 @@ a {
     display: flex;
     // flex-wrap: wrap;
     &-img {
-        width: 80%;
+        width: 70%;
         height: auto;
     }
     .first__right {
@@ -119,8 +119,36 @@ a {
         display: flex;
         flex-direction: column;
     }
+
+    .women {
+        height: auto;
+        max-width: 532px;
+    }
     .text {
         display: flex;
+        color: #015242;
+        padding-left: 32px;
+        gap: 60px;
+    }
+    .heading {
+        max-width: 489px;
+        font-size: clamp(1rem,4.17vw, 5rem);
+        font-weight: 600;
+    }
+    .p {
+        font-size: clamp(1rem,1.35vw, 1.625rem);
+        max-width: 497px;
+        font-weight: 600;
+    }
+    
+}
+
+.section-four {
+    display: flex;
+    .forest {
+        width: 70%;
+    }
+    .text {
     }
     .heading {
     }
