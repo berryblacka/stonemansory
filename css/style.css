@@ -11,7 +11,6 @@
 section {
   width: 100%;
   margin: 0 auto;
-  max-width: 1920px;
 }
 
 html,
@@ -37,6 +36,9 @@ button {
   height: 100%;
   display: flex;
   flex-direction: column;
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow-x: hidden;
 }
 
 a {
@@ -166,6 +168,7 @@ a {
   color: #015242;
   display: flex;
   flex-direction: column;
+  padding-top: 142px;
   padding-left: 78px;
   gap: 112px;
   color: #015242;
@@ -181,9 +184,9 @@ a {
   font-weight: 600;
 }
 .section-five .circles {
-  width: 100%;
+  width: 61%;
   max-width: 1161px;
   position: absolute;
   top: 0;
-  right: -10px;
+  right: -142px;
 }/*# sourceMappingURL=style.css.map */
